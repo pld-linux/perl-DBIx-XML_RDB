@@ -27,7 +27,7 @@ datasources.  It allows you to easily extract data from a database,
 and manipulate later using XML::Parser.
 
 %description -l pl
-Modu³ Pels DBIx::XML_RDB jest prostym kreatorem damych w XML-u ze
+Modu³ Perla DBIx::XML_RDB jest prostym kreatorem danych w XML-u ze
 ¼róde³ danych DBI. Umo¿liwia proste wyodrêbnienie danych z bazy i
 pó¼niejsza manipulacjê nimi za pomoc± XML::Parser.
 
