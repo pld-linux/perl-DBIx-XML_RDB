@@ -28,7 +28,7 @@ DBIx::XML_RDB - tworzy pliki XML ze ¼róde³ danych DBI.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
