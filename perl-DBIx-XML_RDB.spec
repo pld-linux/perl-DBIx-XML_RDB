@@ -14,7 +14,7 @@ BuildRequires:	perl-DBI
 BuildRequires:	perl-XML-Parser
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 DBIx-XML_RDB - creates XML from existing DBI datasources.
