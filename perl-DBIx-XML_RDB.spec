@@ -27,7 +27,7 @@ DBIx-XML_RDB - tworzy pliki XML ze ¼róde³ danych DBI.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
