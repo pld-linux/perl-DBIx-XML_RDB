@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	XML_RDB
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx-XML_RDB perl module
 Summary(pl):	Modu³ perla DBIx-XML_RDB
 Name:		perl-DBIx-XML_RDB
 Version:	0.05
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ DBIx-XML_RDB - creates XML from existing DBI datasources.
 DBIx-XML_RDB - tworzy pliki XML ze ¼róde³ danych DBI.
 
 %prep
-%setup -q -n DBIx-XML_RDB-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
