@@ -9,7 +9,7 @@ Summary:	DBIx::XML_RDB - Perl extension for creating XML from existing DBI datas
 Summary(pl):	DBIx::XML_RDB - rozszerzenie Perla do tworzenia XML-a z istniej±cych ¼róde³ danych DBI
 Name:		perl-DBIx-XML_RDB
 Version:	0.05
-Release:	6
+Release:	7
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
