@@ -1,9 +1,12 @@
+%define	pdir	DBIx
+%define	pnam	XML_RDB
 %include	/usr/lib/rpm/macros.perl
 Summary:	DBIx-XML_RDB perl module
 Summary(pl):	Modu³ perla DBIx-XML_RDB
 Name:		perl-DBIx-XML_RDB
 Version:	0.05
-Release:	3
+Release:	4
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/DBIx-XML_RDB-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
