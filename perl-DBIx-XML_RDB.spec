@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	XML_RDB
-Summary:	DBIx::XML_RDB perl module
-Summary(pl):	Modu³ perla DBIx::XML_RDB
+Summary:	DBIx::XML_RDB - Perl extension for creating XML from existing DBI datasources
+Summary(pl):	DBIx::XML_RDB - rozszerzenie Perla do tworzenia XML-a z istniej±cych ¼róde³ danych DBI
 Name:		perl-DBIx-XML_RDB
 Version:	0.05
 Release:	6
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1eda5c997811350c2008c5966a02aa24
@@ -18,10 +18,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DBIx::XML_RDB - creates XML from existing DBI datasources.
+DBIx::XML_RDB Perl module is a simple creator of XML data from DBI
+datasources.  It allows you to easily extract data from a database,
+and manipulate later using XML::Parser.
 
 %description -l pl
-DBIx::XML_RDB - tworzy pliki XML ze ¼róde³ danych DBI.
+Modu³ Pels DBIx::XML_RDB jest prostym kreatorem damych w XML-u ze
+¼róde³ danych DBI. Umo¿liwia proste wyodrêbnienie danych z bazy i
+pó¼niejsza manipulacjê nimi za pomoc± XML::Parser.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
