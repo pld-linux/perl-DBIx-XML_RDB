@@ -3,7 +3,7 @@ Summary:	DBIx-XML_RDB perl module
 Summary(pl):	Modu³ perla DBIx-XML_RDB
 Name:		perl-DBIx-XML_RDB
 Version:	0.05
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
