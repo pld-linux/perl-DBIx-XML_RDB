@@ -5,11 +5,11 @@ Summary:	DBIx::XML_RDB perl module
 Summary(pl):	Modu³ perla DBIx::XML_RDB
 Name:		perl-DBIx-XML_RDB
 Version:	0.05
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
 BuildRequires:	perl-XML-Parser
@@ -26,7 +26,8 @@ DBIx::XML_RDB - tworzy pliki XML ze ¼róde³ danych DBI.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -42,5 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %attr(755,root,root) %{_bindir}/*
-%{perl_sitelib}/DBIx/*
+%{perl_vendorlib}/DBIx/*
 %{_mandir}/man3/*
