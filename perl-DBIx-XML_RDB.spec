@@ -4,7 +4,6 @@
 
 %define		pdir	DBIx
 %define		pnam	XML_RDB
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx::XML_RDB - Perl extension for creating XML from existing DBI datasources
 Summary(pl.UTF-8):	DBIx::XML_RDB - rozszerzenie Perla do tworzenia XML-a z istniejących źródeł danych DBI
 Name:		perl-DBIx-XML_RDB
